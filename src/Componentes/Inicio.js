@@ -20,6 +20,7 @@ export const Inicio =() =>{
 
     const limpiarStorage = () =>{
         localStorage.removeItem("nombres");
+        setListaNombre([])
     }
     
 
